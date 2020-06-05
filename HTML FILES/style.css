@@ -1,0 +1,279 @@
+html{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+body{
+    height: 100%;
+}
+#nav {
+    height: 30px;
+    background-color: whitesmoke;
+}
+
+#logo {
+    height: 33.5px;
+}
+
+.logoblock {
+    width: 550px;
+}
+
+.navblockstitle{
+    font-size: large;
+    width: 550;
+}
+.navblocks {
+    width: 70px;
+}
+
+.line {
+    width: 100%;
+    background-color: crimson;
+    height: 2px;
+}
+
+.heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.add_rec_body{
+    padding-left: 100px;
+    background-image: url("images/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0px;
+    margin-top: 21px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.forms{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    background-color: darksalmon;
+    width: 400px;
+    height: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.footer{
+    background-color: black;
+    padding-top: 0px;
+    margin-top: 0px;
+    height: 80px;
+    padding-left: 50px;
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.footericon{
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+input[type=text], input[type=password] {
+    padding-left: 10px;
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 200px;
+    height: 50px;
+    background-color: darkred;
+    color: floralwhite;
+    font-size: medium;
+    text-align: center;
+    
+  }
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .rec_login_body{
+    padding-left: 100px;
+    background-image: url("images/img2.jpg");
+
+    margin-top: 21px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    height: 90%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.form1{
+    background-color: coral;
+    height: 100%;
+    padding-left: 30px;
+    padding-top: 10px;
+    }
+
+.button{
+    padding-left: 75px;
+}
+.headingbox{
+    float: left;
+    font-size: x-large;
+    margin-top: 260px;
+    width: 600px;
+    font: outline;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant: initial;
+    font-stretch: initial;
+    background-color:#F7B5A6;
+}
+
+.box1{
+    padding-left: 800px;
+}
+
+.cand_reg_body{
+    background-image: url("images/img7.jpeg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 21px;
+    background-position: right;
+}
+
+.form2{
+    width: 90%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.form2box{
+    width: 510px;
+    float: left;
+    background-color:#93DE80;
+    height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form2head{
+    font-size: xx-large;
+    text-align: center;
+    opacity: 100%;
+}
+
+.cv_score_body{
+    background-image: url("images/img3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 21px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.rank_list_box{
+    width: 80%;
+    padding-left: 50px;
+    background-color: lightslategrey;
+    opacity: 50%;
+    padding-top: 50px;
+    margin-left: 100px;
+    padding-bottom: 50px;
+    
+    
+}
+
+.table_head{
+    width: 250px;
+    font-size: larger;
+    font-family: sans-serif;
+    border-bottom: 1px solid black;
+}
+
+.add_sprec_body{
+    background-image: url("images/img6.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 21px;
+    background-position: right;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.form3{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:#F4BC8B;
+    width: 450px;
+    height: 100%;
+}
+
+.ranklist_body{
+    background-image: url("images/img4.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 21px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.about{
+    background-color:black;
+    height: 200px;
+    margin-top: 21px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.about_head{
+    float: left;
+    padding-top: 20px;
+    padding-left: 300px;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: darkgoldenrod;
+}
+
+.about_img{
+    float: right;
+    width: 40%;
+}
+
+.about_text{
+    background-image: url("images/img9.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    margin-top: -19px;
+    padding-top: 0px;
+}
+
+.content1{
+    background-color: black;
+    color: burlywood;
+    width: 450px;
+    margin-left: 830px;
+    padding-top: 150px;
+    padding-right: 40px;
+    padding-left: 40px;
+    height: 430px;
+    font-size: large;
+    font-family: cursive;
+    line-height: 1.5;
+    font-style: italic;
+}

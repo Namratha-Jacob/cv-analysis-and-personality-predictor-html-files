@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>
+            cv score
+        </title>
+
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+    </head>
+
+    <body>
+        <div id="nav">
+            <table>
+                <tr>
+                    <td class="logoblock">
+                        <img src="images/logo1.PNG" id="logo">
+                    </td>
+                    <td class="navblockstitle">
+                        CV Analyser and Personality Predictor
+                    </td>
+                    <td class="navblocks">
+                        Home
+                    </td>
+                    <td class="navblocks">
+                        Contact us
+                    </td>
+                </tr>
+            </table>
+            <hr class="line">
+        </div>
+
+        <div class="ranklist_body">
+            <div class="rank_list_box">
+                {%if users%}
+                <h1 class="form2head"><b>Final Ranklist</b></h1>
+                <table class="rank_list">
+                <tr>
+                    <th class="table_head">RANK</th>
+                    <th class="table_head">NAME</th>
+                    <th class="table_head">EMAIL ID</th>
+                    <th class="table_head">SCORE</th>
+                </tr>
+                
+                {%for user in users%}
+                <tr>
+                    <td>{{user[0]}}</td>
+                    <td>{{user[1]}}</td>
+                    <td>{{user[2]}}</td>
+                    <td>{{user[4]}}</td>
+                </tr>
+                {%endfor%}
+                </table>
+                {%endif%}
+            </div>
+        </div>
+
+        <div class="footer">
+            <img src="images/fb.webp" class="footericon">
+            <img src="images/ig2.png" class="footericon">
+            <h4> Email to us through: namrathajacob@gmail.com, abitaaugustine@gmail.com, poojaajith001@gmail.com</h4>
+        </div>
+    </body>
+</html>
